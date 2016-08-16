@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="fa">
+    <meta charset="UTF-8">
+    <link href="style/Style.css" rel="stylesheet">
+    <title>نتایج جستجو</title>
+</head>
+<body>
+<div class="pageHeader">
+</div>
+<div><h6>نسخه آزمایشی</h6></div>
+<h3>نتایج جستجو:</h3>
+
+<div class="searchTable">
+    <table>
+        <tr>
+            <th>نام شرکت</th>
+            <th>تاریخ ثبت</th>
+            <th>کد اقتصادی</th>
+            <th>شماره مشتری</th>
+            <th>انجام عملیات</th>
+        </tr>
+        <tr>
+            <td>1111</td>
+            <td>2222</td>
+            <td>3333</td>
+            <td>4444</td>
+            <td>
+                <form style="float: right" action="DeleteLegalCustomerServlet?id=" method="post">
+                    <input type="submit" class="button button1" value="حذف">
+                </form>
+                <form style="float: left" action="UpdateLegalCustomerServlet" method="post">
+                    <input type="submit" class="button button1" value="اصلاح">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>1111</td>
+            <td>2222</td>
+            <td>3333</td>
+            <td>4444</td>
+            <td>
+                <form style="float: right" action="DeleteLegalCustomerServlet?id=" method="post">
+                    <input type="submit" class="button button1" value="حذف">
+                </form>
+                <form style="float: left" action="UpdateLegalCustomerServlet" method="post">
+                    <input type="submit" class="button button1" value="اصلاح">
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+
+<!-- <a href=DeleteLegalCustomerServlet?id="1" type="submit" class="button button1">حذف</a>
+<a href=DeleteLegalCustomerServlet?id="1" class="button button1">بروزرسانی</a>
+ -->
